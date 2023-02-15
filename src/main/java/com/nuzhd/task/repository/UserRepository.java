@@ -1,6 +1,6 @@
-package com.nuzhd.techtask.repository;
+package com.nuzhd.task.repository;
 
-import com.nuzhd.techtask.model.User;
+import com.nuzhd.task.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.UUID;

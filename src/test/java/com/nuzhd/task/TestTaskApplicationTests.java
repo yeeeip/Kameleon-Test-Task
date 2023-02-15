@@ -1,10 +1,10 @@
-package com.nuzhd.techtask;
+package com.nuzhd.task;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TechTaskApplicationTests {
+class TestTaskApplicationTests {
 
     @Test
     void contextLoads() {

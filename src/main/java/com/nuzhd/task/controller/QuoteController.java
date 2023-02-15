@@ -1,12 +1,12 @@
-package com.nuzhd.techtask.controller;
+package com.nuzhd.task.controller;
 
-import com.nuzhd.techtask.model.Quote;
-import com.nuzhd.techtask.model.QuoteCreationRequest;
-import com.nuzhd.techtask.model.QuoteModificationRequest;
-import com.nuzhd.techtask.model.User;
-import com.nuzhd.techtask.repository.QuoteRepository;
-import com.nuzhd.techtask.service.QuoteService;
-import com.nuzhd.techtask.service.UserService;
+import com.nuzhd.task.model.Quote;
+import com.nuzhd.task.model.QuoteCreationRequest;
+import com.nuzhd.task.model.QuoteModificationRequest;
+import com.nuzhd.task.model.User;
+import com.nuzhd.task.repository.QuoteRepository;
+import com.nuzhd.task.service.QuoteService;
+import com.nuzhd.task.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

@@ -1,6 +1,6 @@
-package com.nuzhd.techtask.service;
+package com.nuzhd.task.service;
 
-import com.nuzhd.techtask.model.Quote;
+import com.nuzhd.task.model.Quote;
 
 import java.util.List;
 import java.util.UUID;

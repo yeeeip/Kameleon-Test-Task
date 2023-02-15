@@ -1,8 +1,8 @@
-package com.nuzhd.techtask.controller;
+package com.nuzhd.task.controller;
 
-import com.nuzhd.techtask.model.User;
-import com.nuzhd.techtask.model.UserCreationRequest;
-import com.nuzhd.techtask.service.UserService;
+import com.nuzhd.task.model.User;
+import com.nuzhd.task.model.UserCreationRequest;
+import com.nuzhd.task.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.password.PasswordEncoder;

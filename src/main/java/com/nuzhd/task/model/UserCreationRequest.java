@@ -1,4 +1,4 @@
-package com.nuzhd.techtask.model;
+package com.nuzhd.task.model;
 
 import lombok.Getter;
 

@@ -1,8 +1,8 @@
-package com.nuzhd.techtask.service.impl;
+package com.nuzhd.task.service.impl;
 
-import com.nuzhd.techtask.model.Quote;
-import com.nuzhd.techtask.repository.QuoteRepository;
-import com.nuzhd.techtask.service.QuoteService;
+import com.nuzhd.task.model.Quote;
+import com.nuzhd.task.repository.QuoteRepository;
+import com.nuzhd.task.service.QuoteService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;

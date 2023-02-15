@@ -1,8 +1,8 @@
-package com.nuzhd.techtask.service.impl;
+package com.nuzhd.task.service.impl;
 
-import com.nuzhd.techtask.model.User;
-import com.nuzhd.techtask.repository.UserRepository;
-import com.nuzhd.techtask.service.UserService;
+import com.nuzhd.task.model.User;
+import com.nuzhd.task.repository.UserRepository;
+import com.nuzhd.task.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

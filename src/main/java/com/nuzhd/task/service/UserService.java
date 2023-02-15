@@ -1,6 +1,6 @@
-package com.nuzhd.techtask.service;
+package com.nuzhd.task.service;
 
-import com.nuzhd.techtask.model.User;
+import com.nuzhd.task.model.User;
 
 import java.util.UUID;
 

@@ -1,13 +1,12 @@
-package com.nuzhd.techtask.model;
+package com.nuzhd.task.model;
 
 import lombok.Getter;
 
 import java.util.UUID;
 
 @Getter
-public class QuoteModificationRequest {
+public class QuoteCreationRequest {
 
     private String content;
     private UUID authorId;
-
 }

@@ -1,4 +1,4 @@
-package com.nuzhd.techtask.config;
+package com.nuzhd.task.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
