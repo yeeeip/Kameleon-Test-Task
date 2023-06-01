@@ -8,8 +8,10 @@ import com.nuzhd.task.repository.QuoteRepository;
 import com.nuzhd.task.service.QuoteService;
 import com.nuzhd.task.service.UserService;
 import lombok.RequiredArgsConstructor;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.server.ResponseStatusException;
 
 import java.net.URI;
 import java.time.LocalDateTime;
@@ -32,7 +34,7 @@ public class QuoteController {
         User author = userService.findById(quoteCreationRequest.getAuthorId());
 
         if (author == null) {
-            return ResponseEntity.notFound().build();
+            throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Author with the specified ID doesn't exist!");
         }
 
         Quote quote = Quote.builder()
@@ -73,7 +75,7 @@ public class QuoteController {
     }
 
     @DeleteMapping("/{quoteId}")
-    public ResponseEntity deleteQuote(@PathVariable("quoteId") UUID quoteId) {
+    public ResponseEntity<String> deleteQuote(@PathVariable("quoteId") UUID quoteId) {
 
         Quote quoteToDelete = quoteService.findById(quoteId);
 

@@ -13,3 +13,6 @@ spring:
     hibernate:
       ddl-auto: 'create-drop'
       format-sql: true
+server:
+  error:
+    include-message: always

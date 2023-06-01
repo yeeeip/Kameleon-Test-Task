@@ -13,7 +13,7 @@ public class SpringdocConfig {
     @Bean
     public OpenAPI openApi() {
         return new OpenAPI()
-                .info(new Info().title("Student Management System Documentation").version("1.0.0"));
+                .info(new Info().title("Kameleoon Test Task API").version("1.0.0"));
     }
 
 }
